@@ -37,6 +37,24 @@ CFLAGS		=	-Wall -Wextra -Werror \
 				-nostdlib\
 				-nodefaultlibs
 
+# --TODO--
+#override CFLAGS += \
+#    -Wall \
+#    -Wextra \
+#    -std=gnu11 \
+#    -ffreestanding \
+#    -fno-stack-protector \
+#    -fno-stack-check \
+#    -fno-PIC \
+#    -m64 \
+#    -march=x86-64 \
+#    -mno-80387 \
+#    -mno-mmx \
+#    -mno-sse \
+#    -mno-sse2 \
+#    -mno-red-zone \
+#    -mcmodel=kernel
+
 NASMFLAG	=	-Wall -O2 -f elf32
 
 LDFLAGS		=	-lgcc\
