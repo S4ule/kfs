@@ -1,5 +1,5 @@
 # KFS - Kernel From Scratch
-![project](https://github.com/S4ule/my_nm/blob/main/doc/screenshot.png?raw=true)
+![project](https://github.com/S4ule/kfs/tree/main/doc/screenshot.png?raw=true)
 
 # Build
 You should run `./setup.sh` in `./compiler/` file. BE SURE YOUR CURRENT DIRECTORY is `.../compiler/` before runing the script.
